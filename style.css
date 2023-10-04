@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(31, 31, 31, 0.596);
+}
+.absoluteNav{
+    display: flex;
+    height: 95px;
+    justify-content: space-between;
+    padding-inline: 2em;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   
+    
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    font-size: 24px;
+}
+
+h1{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 400;
+    padding-top: 0.5em;
+    color: white;
+}
+
+
+body{
+    background-image: url(./img/wallpaperflare\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
