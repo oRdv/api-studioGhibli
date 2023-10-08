@@ -41,7 +41,64 @@ h1{
 
 
 body{
+    height: 100vh;
     background-image: url(./img/wallpaperflare\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body .container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.titleG{
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 23.5rem;
+}
+
+.container2 {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.container2 p {
+    text-align: center; 
+    width: 90%;
+
+}
+
+.textstudio{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.downcontainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.downcontainer img{ 
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+
 }
