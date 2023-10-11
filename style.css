@@ -11,8 +11,7 @@ header{
     height: 95px;
     justify-content: space-between;
     padding-inline: 2em;
-
-
+    position: static;
 }
 
 .logo{
@@ -47,8 +46,8 @@ body{
     background-size: cover;
 }
 
-body .container{
-    height: 40vh;
+.container{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,14 +55,12 @@ body .container{
 
 }
 
-
 .titleG{
     color: white;
     font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 23.5rem;
 }
 
 .container2 {
@@ -72,7 +69,8 @@ body .container{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    height: 100%;
+    gap: 1em;
+
 }
 
 .container2 p {
@@ -86,19 +84,45 @@ body .container{
     font-size: 20px;
     display: flex;
     justify-content: center; 
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 1em;
+    
 }
 
 .downcontainer {
-    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
-.downcontainer img{ 
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;
+.downcontainer:hover{
+    transition-duration: 1ms;
+    transform: scale(1.2);
+}
 
+.downcontainer img{
+    height: 60%;
+}
+
+.movie-card{
+    display: flex;
+    background-image: url(./img/wallpaperflare\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center center;
+  
+}
+
+.movie-card{
+    padding-bottom: 100rem;
 }
