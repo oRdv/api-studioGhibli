@@ -47,7 +47,7 @@ body{
 }
 
 .container{
-    height: 100vh;
+    height: 99vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +88,7 @@ body{
 }
 
 
+
 footer{
     display: flex;
     justify-content: center;
@@ -118,11 +119,44 @@ footer{
     background-image: url(./img/wallpaperflare\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
     background-position: center center;
   
 }
 
-.movie-card{
-    padding-bottom: 100rem;
-}
+.slider{
+    display: grid;
+    place-content: center;
+    gap: 24px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+.navigation-bar{
+    padding-left: 100rem;
+    bottom: 50px;
+    transform: translate(-1%);
+    display: grid;
+    gap: 1em;
+  }
+
+  input{
+    display: grid;
+  }
+
+  .manual-btn{
+    border: 2px solid #fff;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 4px;
+    width: 4px;
+  }
+
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+
+  .manual-btn:hover{
+    background: #fff;
+    transition: .4s;
+  }
