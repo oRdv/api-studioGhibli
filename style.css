@@ -116,26 +116,30 @@ footer{
 
 .movie-card{
     display: flex;
-    background-image: url(./img/wallpaperflare\ 2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0,0,0,0.0)),
+    url(./img/wallpaperflare\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    height: 100vh;
   
 }
 
 .slider{
-    display: grid;
+    display: flex;
     place-content: center;
     gap: 24px;
     overflow: hidden;
     border-radius: 20px;
+    flex-direction: column;
   }
 
 .navigation-bar{
-    padding-left: 100rem;
+    justify-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
     bottom: 50px;
     transform: translate(-1%);
-    display: grid;
+    display: flex;
     gap: 1em;
   }
 
@@ -159,4 +163,53 @@ footer{
   .manual-btn:hover{
     background: #fff;
     transition: .4s;
+  }
+
+
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+
+  .titleGs{
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containe3ss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+  }
+
+  .containe3ss p{
+    text-align: center; 
+    width: 90%;
+  }
+
+  .textstudios{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .see-more{
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    height: 28px;
+    color: white;
+    display: flex;
   }
