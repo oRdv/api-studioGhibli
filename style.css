@@ -205,6 +205,8 @@ footer{
 
 
   .see-more{
+    justify-content: center;
+    position: static;
     background-color: black;
     flex-direction: column;
     align-items: center;
