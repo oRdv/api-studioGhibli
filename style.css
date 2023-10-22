@@ -116,8 +116,7 @@ footer{
 
 .movie-card{
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0,0,0,0.0)),
-    url(./img/wallpaperflare\ 2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0,0,0,0.0));
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -171,7 +170,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
   }
 
 
@@ -201,17 +199,18 @@ footer{
     font-size: 20px;
     display: flex;
     justify-content: center;
+    
   }
 
 
   .see-more{
-    justify-content: center;
-    position: static;
-    background-color: black;
-    flex-direction: column;
-    align-items: center;
+    background-color: rgba(0, 0, 0, 0.425);
     width: 110px;
     height: 28px;
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
   }
