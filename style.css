@@ -55,6 +55,12 @@ body{
 
 }
 
+.info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .titleG{
     color: white;
     font-size: 100px;
@@ -120,6 +126,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    backdrop-filter: blur(5px);
   
 }
 
@@ -170,6 +177,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 12px;
   }
 
 
@@ -191,7 +199,7 @@ footer{
 
   .containe3ss p{
     text-align: center; 
-    width: 90%;
+    width: 50%;
   }
 
   .textstudios{
